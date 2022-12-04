@@ -1,0 +1,121 @@
+.header{
+position: sticky;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+/* position: fixed; */
+width: 1140px;
+height: 91.19px;
+left: calc(50% - 1140px/2);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.ul-header{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+height: 91.19px;
+left: 23.82%;
+right: 1.32%;
+top: calc(50% - 27px/2 - 0.5px);
+}
+.header-name{
+margin-top: 1rem;
+display: flex;
+flex-direction: row;
+height: 27px;
+left: 1.32%;
+right: 78.8%;
+top: calc(50% - 27px/2 - 0.5px);
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.9);
+
+}
+.ul-main{
+height: 19px;
+left: 37.04%;
+right: 56.43%;
+top: 36px;
+margin-left: 2rem;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #2F2D4E;
+}
+.ul-sport{
+height: 19px;
+left: 47.65%;
+right: 47.44%;
+top: 36px;
+margin-left: 2rem;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #2F2D4E;
+}
+.ul-politics{
+height: 19px;
+left: 56.65%;
+right: 34.1%;
+top: 35.69px;
+margin-left: 2rem;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #2F2D4E;
+}
+.ul-crypto{
+    height: 19px;
+    left: 65.9%;
+    right: 25.43%;
+    top: 35.69px;
+    margin-left: 2rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 180% */
+    
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    
+    color: #2F2D4E;
+}
+@media screen and (max-device-width: 800px) {
+    .header{width:auto}
+    .ul-header{justify-content: flex-start;}
+}
