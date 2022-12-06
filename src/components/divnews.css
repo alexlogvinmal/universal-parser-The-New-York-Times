@@ -18,7 +18,7 @@
 }
 .news-description1{
 width: auto;
-height: 52.8px;
+margin-top: 1rem;
 
 font-family: 'Josefin Sans';
 font-style: normal;
@@ -51,4 +51,5 @@ color: #2F2D4E
 @media screen and (max-device-width: 800px) {
     .news-flex{flex-direction: column;}
     .news-description{width:auto;}
+    .news-flex{width: 100%;}
 }

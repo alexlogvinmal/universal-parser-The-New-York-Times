@@ -13,15 +13,15 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
+padding-left: 0px;
 height: 91.19px;
 left: 23.82%;
 right: 1.32%;
 top: calc(50% - 27px/2 - 0.5px);
 }
 .header-name{
+cursor: pointer;
 margin-top: 1rem;
-display: flex;
-flex-direction: row;
 height: 27px;
 left: 1.32%;
 right: 78.8%;
@@ -40,6 +40,7 @@ color: rgba(0, 0, 0, 0.9);
 
 }
 .ul-main{
+cursor: pointer;
 height: 19px;
 left: 37.04%;
 right: 56.43%;
@@ -59,6 +60,7 @@ text-transform: capitalize;
 color: #2F2D4E;
 }
 .ul-sport{
+cursor: pointer;
 height: 19px;
 left: 47.65%;
 right: 47.44%;
@@ -78,6 +80,7 @@ text-transform: capitalize;
 color: #2F2D4E;
 }
 .ul-politics{
+cursor: pointer;
 height: 19px;
 left: 56.65%;
 right: 34.1%;
@@ -97,6 +100,7 @@ text-transform: capitalize;
 color: #2F2D4E;
 }
 .ul-crypto{
+    cursor: pointer;
     height: 19px;
     left: 65.9%;
     right: 25.43%;
@@ -114,6 +118,13 @@ color: #2F2D4E;
     text-transform: capitalize;
     
     color: #2F2D4E;
+}
+.a-header{
+    text-decoration: none;
+    color: #000000;
+}
+.curent{
+    text-decoration:underline;
 }
 @media screen and (max-device-width: 800px) {
     .header{width:auto}

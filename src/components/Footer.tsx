@@ -3,28 +3,24 @@ import './footer.css';
 
 
 
-export function Footer(){
+export function Footer() {
 
-    return(
+    return (
         <div className='footer'>
             <div className='footer-main'>
-                <div className='footer-inf'>
-                    <div className='footer1'>
-                        <div className='text-footer1'>Рекомендуем</div>
-                        <ul className='ul-footer1'>
-                            <li className='li-footer11'>Эмма Уотсон бойфренды</li>
-                            <li className='li-footer12'>Ненасытный 3 сезон</li>
-                            <li className='li-footer13'>Oak Island Drake Tot</li>
-                            <li className='li-footer14'>Sims freeplay зимняя страна чудес</li>
-                            <li className='li-footer15'>Бронн игра престолов</li>
-                        </ul>
-                    </div>
-                    <div className='footer2'>
-                        <div className='text-footer2'>SHARE WITH FRIENDS</div>
-                    </div>
-                </div>
-                <div className='copyright'>Copyright © 2022 Все права защищены</div>
+                <ul className='ul-footer1'>
+                <div className='text-footer1'>Other</div>
+                    <li className='li-footer1'><a className='a-footer' href='#'>Main</a></li>
+                    <li className='li-footer1'><a className='a-footer' href='#'>Sport</a></li>
+                    <li className='li-footer1'><a className='a-footer' href='#'>Politics</a></li>
+                    <li className='li-footer1'><a className='a-footer' href='#'>Crypto</a></li>
+                </ul>
+            <div className='footer2'>
+                <div className='text-footer2'>SHARE WITH FRIENDS</div>
             </div>
+            </div>
+          
+            <div className='copyright'>Copyright © 2022 </div>
         </div>
     )
 }

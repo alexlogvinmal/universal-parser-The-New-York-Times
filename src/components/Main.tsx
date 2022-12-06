@@ -8,7 +8,7 @@ import { Divnews } from './Divnews';
 
 export function Main() {
     const {XmlData} = useNews()
-    // console.log(XmlData)
+    //console.log(XmlData)
 
 
     return (

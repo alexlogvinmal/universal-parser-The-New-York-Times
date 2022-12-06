@@ -7,12 +7,12 @@ export function Header(){
 
     return(
         <div className='header'>
-            <div className='header-name'>sendnews.com</div>
+            <div className='header-name'><a className='a-header' href='#'>sendnews.com</a></div>
             <ul className='ul-header'>
-                <li className='ul-main'>Main</li>
-                <li className='ul-sport'>Sport</li>
-                <li className='ul-politics'>Politics</li>
-                <li className='ul-crypto'>Crypto</li>
+                <li className='ul-main curent'><a className='a-header' href='#'>Main</a></li>
+                <li className='ul-sport'><a className='a-header' href='#'>Sport</a></li>
+                <li className='ul-politics'><a className='a-header' href='#'>Politics</a></li>
+                <li className='ul-crypto'><a className='a-header' href='#'>Crypto</a></li>
             </ul>
         </div>
     )
